@@ -9,6 +9,6 @@ class All_rounder_Pokemon(AbstractPokemon):
             float : the multiplier
         """
        
-        multiplier = 1 + (self.sp_atk_current + self.sp_def_current) / 200
+        multiplier = 1 + (self.sp_atk_current + self.sp_def_current ) / 200
 
         return multiplier
