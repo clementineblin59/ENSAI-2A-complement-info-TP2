@@ -9,7 +9,7 @@ class Pokemon:
     """
 
     # -------------------------------------------------------------------------
-    # Constructor
+    # Constructor  
     # -------------------------------------------------------------------------
 
     def __init__(self, stat_max=None, stat_current=None, level=0, name=None, type_pk=None):
