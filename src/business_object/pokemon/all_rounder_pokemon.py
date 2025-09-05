@@ -1,4 +1,4 @@
-from Abstract_Pokemon import AbstractPokemon
+from business_object.pokemon.Abstract_Pokemon import AbstractPokemon
 
 class All_rounder_Pokemon(AbstractPokemon):
     def get_pokemon_attack_coef(self) -> float:
